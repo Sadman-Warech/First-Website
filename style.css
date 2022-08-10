@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.org-clr {
+    color: orange;
+}
+
+p {
+    color: rgb(6, 36, 61);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
+    height: auto;
+}
+
+.ektu-bame {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-color: tomato;
+    color: aliceblue;
+    font-weight: 800;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
