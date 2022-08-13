@@ -16,7 +16,11 @@ h1 {
     font-size: 45px;
 }
 
-section {
+h2 {
+    font-size: 35px;
+}
+
+.flexible-container {
     display: flex;
 }
 
@@ -43,6 +47,71 @@ section {
 }
 
 .top-banner {
-    background-image: url(yo12.png);
+    background-image: url(images/yo12.png);
     background-repeat: no-repeat;
+}
+
+.half-width2 {
+    width: 50%;
+}
+
+.half-width2 img {
+    width: 130%;
+}
+
+.ektu-bame2 {
+    padding-top: 150px;
+    padding-right: 150px;
+    padding-left: 100px;
+}
+
+.top-banner2 {
+    background-image: url(images/right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.link-button2 {
+    text-decoration: none;
+    background-color: rgb(52, 130, 194);
+    color: aliceblue;
+    font-weight: 800;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+
+.nijer-moto {
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 3%;
+    box-shadow: 10px 10px 40px 8px powderblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-left: 10px solid blue;
+}
+
+.top-banner3 {
+    background-image: url(images/gu2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby {
+    border-radius: 7px solid;
+    border-image: linear-gradient(rgb(243, 122, 9), rgb(156, 10, 10));
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+#pro {
+    border-radius: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 100px;
 }
